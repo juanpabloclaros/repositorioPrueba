@@ -1,0 +1,23 @@
+{
+  "name": "proyectoPruebaGit",
+  "version": "1.0.0",
+  "description": "BRuno y Juanpi equipo top",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanpabloclaros/repositorioPrueba.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanpabloclaros/repositorioPrueba/issues"
+  },
+  "homepage": "https://github.com/juanpabloclaros/repositorioPrueba#readme",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
