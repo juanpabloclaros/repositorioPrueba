@@ -1,0 +1,337 @@
+.escenario {
+  background: url(https://i.pinimg.com/originals/cf/e2/ca/cfe2ca21f7f0adf3ff739c3cd4ea10c3.jpg);
+  width: 970px;
+  height: 600px;
+  background-size: cover;
+  margin: 0 auto;
+  border-radius: 5px solid black;
+}
+
+.mensaje {
+  background: url(https://www.paredesoriginales.com/856-thickbox_default/vinilo-hello-bocadillo-comic.jpg);
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  position: relative;
+  bottom: -473px;
+  left: 60px;
+  animation: texto 4s ease 3s 1;
+  opacity: 0;
+}
+
+.sonic {
+  background: url(https://3.bp.blogspot.com/-OHVNwSrJ3v4/Vz8DJNsB0UI/AAAAAAAABwQ/AsokvHqMkdoFePlIz5B0mISetxbK0Yl6QCLcB/s1600/what_i_do_when_i_enter_contests__contest_entry__by_josh98s_studio-d7rv4sx.png);
+  width: 39px;
+  height: 46px;
+  background-size: contain;
+  position: relative;
+  bottom: -480px;
+  left: 80px;
+  animation: sonic 12s linear 7s infinite;
+}
+
+.moneda {
+  background: url(http://pa1.narvii.com/6321/356a475908afc0c0bbabbe90ef8520429c212d4c_00.gif);
+  width: 40px;
+  height: 30px;
+  background-size: cover;
+  position: relative;
+  bottom: -450px;
+  left: 130px;
+  animation: moneda 2.4s cubic-bezier(0.56, 1.12, 0.25, 0.99) 7s 1;
+  opacity: 0;
+}
+
+.moneda2 {
+  background: url(http://pa1.narvii.com/6321/356a475908afc0c0bbabbe90ef8520429c212d4c_00.gif);
+  width: 40px;
+  height: 30px;
+  background-size: cover;
+  position: relative;
+  bottom: -420px;
+  left: 170px;
+  animation: moneda2 2.7s cubic-bezier(0.56, 1.12, 0.25, 0.99) 7s 1;
+  opacity: 0;
+}
+
+.moneda3 {
+  background: url(http://pa1.narvii.com/6321/356a475908afc0c0bbabbe90ef8520429c212d4c_00.gif);
+  width: 40px;
+  height: 30px;
+  background-size: cover;
+  position: relative;
+  bottom: -390px;
+  left: 210px;
+  animation: moneda3 2.9s cubic-bezier(0.56, 1.12, 0.25, 0.99) 7s 1;
+  opacity: 0;
+}
+
+.moneda4 {
+  background: url(http://pa1.narvii.com/6321/356a475908afc0c0bbabbe90ef8520429c212d4c_00.gif);
+  width: 40px;
+  height: 30px;
+  background-size: cover;
+  position: relative;
+  bottom: -360px;
+  left: 250px;
+  animation: moneda4 3.1s cubic-bezier(0.56, 1.12, 0.25, 0.99) 7s 1;
+  opacity: 0;
+}
+
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes sonic {
+  0% {
+    transform: translateX(0);
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    bottom: -480px;
+  }
+
+  10% {
+    transform: translateX(0);
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    bottom: -480px;
+  }
+
+  15% {
+    transform: translateX(100px);
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    bottom: -480px;
+  }
+
+  20% {
+    transform: translateX(250px);
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    transition: all 2s ease;
+    bottom: -480px;
+  }
+
+  25% {
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    bottom: -460px;
+  }
+
+  30% {
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    bottom: -460px;
+  }
+
+  40% {
+    transform: translateX(280px);
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    bottom: -420px;
+  }
+
+  45% {
+    transform: translateX(300px);
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    bottom: -420px;
+  }
+
+  50% {
+    transform: translateX(350px);
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    bottom: -380px;
+  }
+
+  55% {
+    transform: translateX(400px);
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    bottom: -400px;
+  }
+
+  60% {
+    transform: translateX(510px);
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    bottom: -390px;
+  }
+
+  65% {
+    transform: translateX(510px);
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    bottom: -145px;
+  }
+
+  70% {
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    bottom: -2px;
+  }
+
+  75% {
+    transform: translateX(510px);
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    bottom: -2px;
+  }
+
+  80% {
+    transform: translateX(570px);
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    bottom: -2px;
+  }
+
+  85% {
+    transform: translateX(620px);
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    bottom: 30px;
+  }
+
+  90% {
+    transform: translateX(680px);
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+    bottom: -2px;
+  }
+
+  95% {
+    transform: translateX(755px);
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+  }
+
+  100% {
+    transform: translateX(830px);
+    background: url(https://lh3.googleusercontent.com/proxy/oMQwhPCA8WEI2kDf_BL4n-i-lZSCLsL-nYEA2q7yc5KQiojHHxWv23CfP6EpdKrAS1G7XTD_m0c4qhx6qGuo4ON6zY4-2ksvygrMPXtm0ASFIPwmi62kA7m9p---YmMTnm7ADHE);
+    width: 46px;
+    height: 39px;
+    background-size: cover;
+    position: relative;
+  }
+}
+
+@keyframes moneda {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes moneda2 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes moneda3 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes moneda4 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
